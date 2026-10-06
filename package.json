@@ -1,0 +1,19 @@
+{
+  "name": "despliegue01",
+  "version": "1.0.0",
+  "description": "Laboratorio de despliegue con Node.js",
+  "main": "index.js",
+"scripts": {
+  "dev": "nodemon index.js",
+  "start": "node index.js"
+},
+  "author": "Alexis Villar Collantes <alexis.villar@tecsup.edu.pe>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5"
+  }
+}
